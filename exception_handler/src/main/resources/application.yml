@@ -1,0 +1,11 @@
+
+# ------------- Web 服务 ------------- #
+server:
+  port: 8180 # 访问端口号
+  servlet:
+    context-path: / # 上下文路径
+
+# -------------- Spring ------------- #
+spring:
+  application:
+    name: ExHandler # 应用程序名称
