@@ -10,4 +10,8 @@ public class InternalServerErrorException extends MyException {
         super(ErrorCode.INTERNAL_SERVER_ERROR, errorDetail);
     }
 
+    public InternalServerErrorException(Map<String, Object> errorDetail, Throwable cause) {
+        super(ErrorCode.INTERNAL_SERVER_ERROR, errorDetail, cause);
+    }
+
 }
